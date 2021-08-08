@@ -144,3 +144,14 @@ body{
     display: block;
     width: 100%;
 }
+
+.content-text h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content-text p{
+    text-align: justify;
+    color: black;
+}
