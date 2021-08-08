@@ -175,3 +175,19 @@ body{
     color: black;
     font-style: italic;
 }
+
+/* main page styles */
+
+.home-content .content-text h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#content-design div{
+    padding-bottom: 20px;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+}
