@@ -147,21 +147,21 @@ body{
 
 .bottom-content{
     position: absolute;
-    color: #11101d;
+    color: whitesmoke;
     bottom: 0;
     left: 0;
     width: calc(100% - 240px);
     left: 240px;
     font-size: 10px;
     font-weight: 500;
-    color: #11101d;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #home-image{
     display: block;
     width: 100%;
+    height: 100%;
 }
 
 .content-text h1{
