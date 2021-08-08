@@ -98,9 +98,49 @@ body{
     left: 0;
 }
 
-.media-links .social-networks li a i{
+.media-links .social-networks li a{
     margin-left: 15px;
     text-align: center;
     align-items: center;
     display: flex;
+}
+
+.home-content{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+}
+
+.home-content .content-text{
+    font-size: 25px;
+    font-weight: 500;
+    color: #11101d;
+    margin: 12px;
+}
+
+.content-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-content{
+    position: absolute;
+    color: #11101d;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 240px);
+    left: 240px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #11101d;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#home-image{
+    display: block;
+    width: 100%;
 }
