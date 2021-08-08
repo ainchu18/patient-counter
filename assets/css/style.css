@@ -59,13 +59,20 @@ body{
     margin-top: 20px;
 }
 
-.side li{
+.side ul li{
     position: relative;
-    height: 25px;
+    height: 40px;
     width: 100%;
     margin: 0 5px;
     list-style-type: none;
-    line-height: 25px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.side li a:hover{
+    color: #11101d;
+    background: #fff;
+
 }
 
 .side li a{
@@ -73,4 +80,27 @@ body{
     display: flex;
     align-items: center;
     text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.side li a i{
+    height: 40px;
+    min-width: 25px;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.side .media-links{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.media-links .social-networks li a i{
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
 }
