@@ -14,6 +14,8 @@ body{
     overflow: hidden;
 }
 
+/* side bar styles */
+
 .side{
     position: fixed;
     top: 0;
@@ -40,6 +42,11 @@ body{
 .content .logo .logo-name{
     font-size: 20px;
     font-weight: 400;
+}
+
+#short-cut{
+    text-decoration: underline;
+    color: inherit;
 }
 
 .side #menu-tab{
@@ -72,6 +79,7 @@ body{
 .side li a:hover{
     color: #11101d;
     background: #fff;
+    border-radius: 12px;
 
 }
 
@@ -80,7 +88,7 @@ body{
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: all 0.25s ease;
+    transition: all 0.5s ease;
 }
 
 .side li a i{
@@ -90,6 +98,8 @@ body{
     line-height: 40px;
     text-align: center;
 }
+
+/* social media styles*/
 
 .side .media-links{
     position: absolute;
@@ -103,7 +113,10 @@ body{
     text-align: center;
     align-items: center;
     display: flex;
+    border-radius: 12px;
 }
+
+/*Home page styles*/
 
 .home-content{
     position: absolute;
@@ -124,6 +137,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 30px;
+    background-color: whitesmoke;
+    border: 1px solid transparent;
+    opacity: 0.7;
+    border-radius: 12px;
+    padding: 20px 20px;
 }
 
 .bottom-content{
@@ -154,4 +173,5 @@ body{
 .content-text p{
     text-align: justify;
     color: black;
+    font-style: italic;
 }
