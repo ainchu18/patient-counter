@@ -36,15 +36,15 @@
         </ul>
         </nav>
     <div class="media-links">
-        <ul class="social-networks">
+        <ul class="social-networks" id="networks">
             <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i><span>Facebook</span></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i><span></span></a>
             </li>
             <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i><span></span></a>
             </li>
             <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i><span></span></a>
             </li>
         </ul>
     </div>
@@ -52,13 +52,13 @@
    <div class="home-content">
        <div class="content-text" id="content-design">
            <h2>Patient Counter</h2>
-           <div>Minor Males(1 to 16 y/o):<span id="minor-male"> 0</span><button id="minor-add-btn">add</button></div>
-           <div>Minor Females(1 to 16 y/o):<span id="minor-male"> 0</span><button id="minor-add-btn">add</button></div>
-           <div>Adult Males(17 y/o and above):<span id="minor-male"> 0</span><button id="minor-add-btn">add</button></div>
-           <div>Adult Females(17 y/o and above):<span id="minor-male"> 0</span><button id="minor-add-btn">add</button></div>
+           <div>Minor Males(1 to 16 y/o) :<span id="minor-male"> 0</span><button id="minor-male-btn">ADD</button></div>
+           <div>Minor Females(1 to 16 y/o) :<span id="minor-female"> 0</span><button id="minor-female-btn">ADD</button></div>
+           <div>Adult Males(17 y/o and above) :<span id="adult-male"> 0</span><button id="adult-male-btn">ADD</button></div>
+           <div>Adult Females(17 y/o and above) :<span id="adult-female"> 0</span><button id="adult-female-btn">ADD</button></div>
            <section class="total">
-                <div id="total-minors">Total Minor Attendances:<span id="total-minors"> 0</span></div>
-                <div id="total-minors">Total Adult Attendances:<span id="total-minors"> 0</span></div>
+                <div id="total-minors">Total Minor Attendances:<span id="total-number-minors"> 0</span></div>
+                <div id="total-adults">Total Adult Attendances:<span id="total-number-adults"> 0</span></div>
             </section>
        </div>
 

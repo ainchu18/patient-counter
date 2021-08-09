@@ -116,6 +116,13 @@ body{
     border-radius: 12px;
 }
 
+#networks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
 /*Home page styles*/
 
 .home-content{
@@ -185,9 +192,84 @@ body{
 
 #content-design div{
     padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+#content-design{
+    border: 1px solid black;
+}
+
+.home-content .content-text div{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#minor-male{
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#minor-female{
+    margin-left: 75px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#adult-male{
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#adult-female{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#minor-male-btn{
+    margin-left: 75px;
+    padding: 15px 15px;
+    border-radius: 12px;
+    background: red;
+}
+
+#minor-female-btn{
+    margin-left: 75px;
+    padding: 15px 15px;
+    border-radius: 12px;
+    background: orange;
+}
+
+#adult-male-btn{
+    margin-left: 80px;
+    padding: 15px 15px;
+    border-radius: 12px;
+    background: yellow;
+}
+
+#adult-female-btn{
+    margin-left: 80px;
+    padding: 15px 15px;
+    border-radius: 12px;
+    background: green;
 }
 
 .total{
     display: flex;
     flex-direction: row;
+    text-align: center;
+}
+
+#total-number-minors{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#total-number-adults{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
 }
