@@ -181,6 +181,7 @@ body{
     border-radius: 12px;
     padding: 20px 20px;
 }
+/* footer */
 
 .bottom-content{
     position: absolute;
@@ -341,9 +342,42 @@ body{
 
 /* Tally page */
 
-#form-table{
+#table-container{
     position: absolute;
     height: 100%;
     width: calc(100% - 240px);
     left: 240px;
+}
+
+#table-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+#tally-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+table{
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid #11101d;
+}
+
+th{
+    padding-top: 20px;
+    border: 1px solid #11101d;
+}
+
+td{
+    border: 1px solid #11101d;
 }
