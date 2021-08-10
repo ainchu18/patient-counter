@@ -76,11 +76,12 @@ body{
     border-radius: 10px;
 }
 
-.side li a:hover{
-    color: #11101d;
-    background: #fff;
-    border-radius: 12px;
-
+.side li a i{
+    height: 40px;
+    min-width: 25px;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
 }
 
 .side li a{
@@ -91,12 +92,42 @@ body{
     transition: all 0.5s ease;
 }
 
-.side li a i{
+.side li a:hover{
+    color: #11101d;
+    background: #fff;
+    border-radius: 12px;
+
+}
+
+.calendar{
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar span{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding-left: 5px;
+}
+
+#toggle1{
+    position: absolute;
     height: 40px;
-    min-width: 25px;
-    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
     line-height: 40px;
-    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+
+#toggle1:hover{
+    color:#fff;
+    background: #11101d;
+    border-radius: 12px;
+    animation-name: ;
 }
 
 /* social media styles*/
@@ -282,3 +313,6 @@ body{
     font-size: 30px;
     font-weight: 800;
 }
+
+/* Calendar */
+
