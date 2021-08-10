@@ -89,7 +89,7 @@ body{
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
 }
 
 .side li a:hover{
@@ -107,7 +107,7 @@ body{
 .calendar span{
     color: #fff;
     text-decoration: none;
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
     padding-left: 5px;
 }
 
@@ -127,7 +127,6 @@ body{
     color:#fff;
     background: #11101d;
     border-radius: 12px;
-    animation-name: ;
 }
 
 /* social media styles*/
@@ -144,7 +143,7 @@ body{
     text-align: center;
     align-items: center;
     display: flex;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 #networks{
@@ -164,7 +163,7 @@ body{
 }
 
 .home-content .content-text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: #11101d;
     margin: 12px;
@@ -242,25 +241,25 @@ body{
 }
 
 #minor-female{
-    margin-left: 75px;
+    margin-left: 80px;
     font-size: 30px;
     font-weight: 700;
 }
 
 #adult-male{
-    margin-left: 35px;
+    margin-left: 50px;
     font-size: 30px;
     font-weight: 700;
 }
 
 #adult-female{
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 30px;
     font-weight: 700;
 }
 
 #minor-male-btn{
-    margin-left: 75px;
+    margin-left: 90px;
     padding: 15px 15px;
     border-radius: 12px;
     background: red;
@@ -268,8 +267,14 @@ body{
     font-weight: 700;
 }
 
+#minor-male-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
 #minor-female-btn{
-    margin-left: 75px;
+    margin-left: 90px;
     padding: 15px 15px;
     border-radius: 12px;
     background: orange;
@@ -277,8 +282,14 @@ body{
     font-weight: 700;
 }
 
+#minor-female-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
 #adult-male-btn{
-    margin-left: 80px;
+    margin-left: 90px;
     padding: 15px 15px;
     border-radius: 12px;
     background: yellow;
@@ -286,13 +297,25 @@ body{
     font-weight: 700;
 }
 
+#adult-male-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
 #adult-female-btn{
-    margin-left: 80px;
+    margin-left: 90px;
     padding: 15px 15px;
     border-radius: 12px;
     background: green;
     font-size: 15px;
     font-weight: 700;
+}
+
+#adult-female-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
 }
 
 .total{
@@ -303,13 +326,15 @@ body{
 }
 
 #total-number-minors{
-    padding-left: 20px;
+    padding-right: 10px;
+    margin: 20px 20px;
     font-size: 30px;
     font-weight: 800;
 }
 
 #total-number-adults{
-    margin-left: 20px;
+    padding-right: 10px;
+    margin: 20px 20px;
     font-size: 30px;
     font-weight: 800;
 }
