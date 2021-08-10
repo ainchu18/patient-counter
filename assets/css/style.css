@@ -164,7 +164,7 @@ body{
 
 .home-content .content-text{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: #11101d;
     margin: 12px;
 }
@@ -339,5 +339,11 @@ body{
     font-weight: 800;
 }
 
-/* Calendar */
+/* Tally page */
 
+#form-table{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+}
