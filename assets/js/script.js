@@ -1,3 +1,16 @@
+// wait for DOM to finish loading before running the counter
+// get button elements and add event listeners to them
+
+document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName("button");
+
+    for (button of buttons) {
+        button.addEventListener("click", function() {
+            
+        })
+    }
+})
+
 // functions  for patient counter/main page
 
 function incrementCount(){
@@ -22,98 +35,98 @@ function totalAdultCount(){
 
 // functions for tally page
 
-function addMinorTotalJanuary(){
+function minorTotalJanuary(){
 
 }
 
-function addAdultTotalJanuary(){
+function adultTotalJanuary(){
 
 }
 
-function addMinorTotalFebruary(){
+function minorTotalFebruary(){
 
 }
 
-function addAdultTotalFebruary(){
+function adultTotalFebruary(){
 
 }
 
-function addMinorTotalMarch(){
+function minorTotalMarch(){
 
 }
 
-function addAdultTotalMarch(){
+function adultTotalMarch(){
 
 }
 
-function addMinorTotalApril(){
+function minorTotalApril(){
 
 }
 
-function addAdultTotalApril(){
+function adultTotalApril(){
 
 }
 
-function addMinorTotalMay(){
+function minorTotalMay(){
 
 }
 
-function addAdultTotalMay(){
+function adultTotalMay(){
 
 }
 
-function addMinorTotalJune(){
+function minorTotalJune(){
 
 }
 
-function addAdultTotalJune(){
+function adultTotalJune(){
 
 }
 
-function addMinorTotalJuly(){
+function minorTotalJuly(){
 
 }
 
-function addAdultTotalJuly(){
+function adultTotalJuly(){
 
 }
 
-function addMinorTotalAugust(){
+function minorTotalAugust(){
 
 }
 
-function addAdultTotalAugust(){
+function adultTotalAugust(){
 
 }
 
-function addMinorTotalSeptember(){
+function minorTotalSeptember(){
 
 }
 
-function addAdultTotalSeptember(){
+function adultTotalSeptember(){
 
 }
 
-function addMinorTotalOctober(){
+function minorTotalOctober(){
 
 }
 
-function addAdultTotalOctober(){
+function adultTotalOctober(){
 
 }
 
-function addMinorTotalNovember(){
+function minorTotalNovember(){
 
 }
 
-function addAdultTotalNovember(){
+function adultTotalNovember(){
 
 }
 
-function addMinorTotalDecember(){
+function minorTotalDecember(){
 
 }
 
-function addAdultTotalDecember(){
+function adultTotalDecember(){
 
 }
