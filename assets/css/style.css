@@ -384,10 +384,32 @@ table{
 }
 
 th{
-    padding-top: 20px;
+    padding: 10px 10px;
     border: 1px solid #11101d;
 }
 
 td{
     border: 1px solid #11101d;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.submit{
+    background: #fff;
+    border: none;
+    color: #11101d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.submit:hover{
+    color: #fff;
+    background: #11101d;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+
 }
