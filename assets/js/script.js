@@ -6,13 +6,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (button of buttons) {
         button.addEventListener("click", function() {
-            if (this.getAttribute("data-type") === "add") {
+            if (this.getAttribute("data-type") === "add-minor-male") {
                 incrementMinorMaleCount();
-            } else if (this.getAttribute("data-type") === "minus") {
+            } else if (this.getAttribute("data-type") === "minus-minor-male") {
                 decrementMinorMaleCount();
-            } else if  (this.getAttribute("data-type") === "save") {
+            } else if  (this.getAttribute("data-type") === "save-minor-male") {
                 saveMinorMaleCount();
-            }        
+            }
+            if (this.getAttribute("data-type") === "add-minor-female") {
+                incrementMinorFemaleCount();
+            } else if (this.getAttribute("data-type") === "minus-minor-female") {
+                decrementMinorFemaleCount();
+            } else if (this.getAttribute("data-type") === "save-minor-female") {
+                saveMinorMaleCount();
+            }     
         })
     }
 })
@@ -21,26 +28,45 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 let minorMale = document.getElementById("minor-male");
-let totalNumberMinors = document.getElementById("total-number-minors");
 let minorMaleCount = 0;
+
+let minorFemale = document.getElementById("minor-female");
+let minorFemaleCount = 0;
+
+let totalNumberMinors = document.getElementById("total-number-minors");
+
 
 function incrementMinorMaleCount() {
     minorMaleCount += 1
     minorMale.textContent = minorMaleCount
 }
 
+function incrementMinorFemaleCount() {
+    minorFemaleCount += 1
+    minorFemale.textContent = minorFemaleCount
+}
+
 function decrementMinorMaleCount() {
     minorMaleCount -= 1
     minorMale.textContent = minorMaleCount
+}
 
+function decrementMinorFemaleCount() {
+    minorFemaleCount -= 1
+    minorFemale.textContent = minorFemaleCount
 }
 
 function saveMinorMaleCount() {
-    let totalMinorCount = minorMaleCount
+    let totalMinorCount = minorMaleCount + minorFemaleCount
     totalNumberMinors.textContent = totalMinorCount + parseInt(totalNumberMinors.textContent)
     minorMale.textContent = 0
+    minorFemale.textContent = 0
     minorMaleCount = 0
+    minorFemaleCount = 0
 }
+
+
+
 
 
 // functions for tally page
