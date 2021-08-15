@@ -6,12 +6,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (button of buttons) {
         button.addEventListener("click", function() {
-            
+            if (this.getAttribute("data-type") === "add") {
+            alert("You clicked ADD!");
+            } else if (this.getAttribute("data-type") === "minus") {
+                alert("You clicked MINUS!");
+            } else if  (this.getAttribute("data-type") === "save") {
+                alert("You clikced SAVE!");
+            }        
         })
     }
 })
 
 // functions  for patient counter/main page
+
 
 function incrementCount(){
 

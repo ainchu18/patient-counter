@@ -394,7 +394,7 @@ td{
     text-align: center;
 }
 
-.submit{
+#submit{
     background: #fff;
     border: none;
     color: #11101d;
@@ -404,9 +404,10 @@ td{
     display: inline-block;
     font-size: 20px;
     margin-top: 10px;
+    border-radius: 12px;
 }
 
-.submit:hover{
+#submit:hover{
     color: #fff;
     background: #11101d;
     border-radius: 12px;
