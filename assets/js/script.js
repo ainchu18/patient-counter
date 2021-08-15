@@ -114,6 +114,18 @@ function saveTotalMinorAttendance() {
     minorFemaleCount = 0
 }
 
+// funtion to sum up adult total
+
+function saveTotalAdultAttendance() {
+    let totalAdultCount = adultMaleCount + adultFemaleCount
+    totalNumberAdults.textContent = totalAdultCount + parseInt(totalNumberAdults.textContent)
+    adultMale.textContent = 0
+    adultFemale.textContent = 0
+    adultMaleCount = 0
+    adultFemaleCount = 0
+}
+
+
 // functions for tally page
 
 function minorTotalJanuary(){
