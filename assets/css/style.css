@@ -246,32 +246,32 @@ body{
 }
 
 #minor-male{
-    margin-left: 70px;
+    margin-left: 74px;
     font-size: 20px;
     font-weight: 700;
 }
 
 #minor-female{
-    margin-left: 50px;
+    margin-left: 54px;
     font-size: 20px;
     font-weight: 700;
 }
 
 #adult-male{
-    margin-left: 20px;
+    margin-left: 24px;
     font-size: 20px;
     font-weight: 700;
 }
 
 #adult-female{
-    margin-left: 1px;
+    margin-left: 5px;
     font-size: 20px;
     font-weight: 700;
 }
 
 #minor-male-btn{
     margin-left: 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-radius: 12px;
     background: red;
     font-size: 15px;
@@ -286,7 +286,7 @@ body{
 
 #minor-female-btn{
     margin-left: 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-radius: 12px;
     background: orange;
     font-size: 15px;
@@ -301,7 +301,7 @@ body{
 
 #adult-male-btn{
     margin-left: 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-radius: 12px;
     background: yellow;
     font-size: 15px;
@@ -316,7 +316,7 @@ body{
 
 #adult-female-btn{
     margin-left: 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-radius: 12px;
     background: green;
     font-size: 15px;
@@ -333,19 +333,18 @@ body{
     display: flex;
     flex-direction: row;
     text-align: center;
-    font-weight: 700;
 }
 
 #total-number-minors{
-    margin: 20px 20px;
+    margin: 15px 15px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #total-number-adults{
-    margin: 20px 20px;
+    margin: 15px 15px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* Tally page */

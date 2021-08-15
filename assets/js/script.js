@@ -24,7 +24,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 incrementAdultMaleCount();
             } else if (this.getAttribute("data-type") === "minus-adult-male") {
                 decrementAdultMaleCount();
-            }  
+            } else if (this.getAttribute("data-type") === "save-adult-male") {
+                saveTotalAdultAttendance();
+            }
+            if (this.getAttribute("data-type") === "add-adult-female") {
+                incrementAdultFemaleCount();
+            } else if (this.getAttribute("data-type") === "minus-adult-female") {
+                decrementAdultFemaleCount();
+            } else if (this.getAttribute("data-type") === "save-adult-female") {
+                saveTotalAdultAttendance();
+            }
         })
     }
 })
@@ -39,6 +48,9 @@ let minorFemaleCount = 0;
 
 let adultMale = document.getElementById("adult-male");
 let adultMaleCount = 0;
+
+let adultFemale = document.getElementById("adult-female");
+let adultFemaleCount = 0;
 
 let totalNumberMinors = document.getElementById("total-number-minors");
 let totalNumberAdults = document.getElementById("total-number-adults");
@@ -79,6 +91,18 @@ function decrementAdultMaleCount() {
     adultMale.textContent = adultMaleCount
 }
 
+// functions for counting adult female attendance
+
+function incrementAdultFemaleCount() {
+    adultFemaleCount += 1
+    adultFemale.textContent = adultFemaleCount
+}
+
+function decrementAdultFemaleCount() {
+    adultFemaleCount -= 1
+    adultFemale.textContent = adultFemaleCount
+}
+
 // funtion to sum up minor total
 
 function saveTotalMinorAttendance() {
@@ -89,10 +113,6 @@ function saveTotalMinorAttendance() {
     minorMaleCount = 0
     minorFemaleCount = 0
 }
-
-
-
-
 
 // functions for tally page
 
