@@ -11,21 +11,25 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (this.getAttribute("data-type") === "minus-minor-male") {
                 decrementMinorMaleCount();
             } else if  (this.getAttribute("data-type") === "save-minor-male") {
-                saveMinorMaleCount();
+                saveTotalMinorAttendance();
             }
             if (this.getAttribute("data-type") === "add-minor-female") {
                 incrementMinorFemaleCount();
             } else if (this.getAttribute("data-type") === "minus-minor-female") {
                 decrementMinorFemaleCount();
             } else if (this.getAttribute("data-type") === "save-minor-female") {
-                saveMinorMaleCount();
-            }     
+                saveTotalMinorAttendance();
+            }
+            if (this.getAttribute("data-type") === "add-adult-male") {
+                incrementAdultMaleCount();
+            } else if (this.getAttribute("data-type") === "minus-adult-male") {
+                decrementAdultMaleCount();
+            }  
         })
     }
 })
 
 // functions  for patient counter/main page
-
 
 let minorMale = document.getElementById("minor-male");
 let minorMaleCount = 0;
@@ -33,17 +37,17 @@ let minorMaleCount = 0;
 let minorFemale = document.getElementById("minor-female");
 let minorFemaleCount = 0;
 
-let totalNumberMinors = document.getElementById("total-number-minors");
+let adultMale = document.getElementById("adult-male");
+let adultMaleCount = 0;
 
+let totalNumberMinors = document.getElementById("total-number-minors");
+let totalNumberAdults = document.getElementById("total-number-adults");
+
+// functions for counting minor male attendance
 
 function incrementMinorMaleCount() {
     minorMaleCount += 1
     minorMale.textContent = minorMaleCount
-}
-
-function incrementMinorFemaleCount() {
-    minorFemaleCount += 1
-    minorFemale.textContent = minorFemaleCount
 }
 
 function decrementMinorMaleCount() {
@@ -51,12 +55,33 @@ function decrementMinorMaleCount() {
     minorMale.textContent = minorMaleCount
 }
 
+// functions for counting minor female attendance
+
+function incrementMinorFemaleCount() {
+    minorFemaleCount += 1
+    minorFemale.textContent = minorFemaleCount
+}
+
 function decrementMinorFemaleCount() {
     minorFemaleCount -= 1
     minorFemale.textContent = minorFemaleCount
 }
 
-function saveMinorMaleCount() {
+// functions for counting adult male attendance
+
+function incrementAdultMaleCount() {
+    adultMaleCount += 1
+    adultMale.textContent = adultMaleCount
+}
+
+function decrementAdultMaleCount() {
+    adultMaleCount -= 1
+    adultMale.textContent = adultMaleCount
+}
+
+// funtion to sum up minor total
+
+function saveTotalMinorAttendance() {
     let totalMinorCount = minorMaleCount + minorFemaleCount
     totalNumberMinors.textContent = totalMinorCount + parseInt(totalNumberMinors.textContent)
     minorMale.textContent = 0
