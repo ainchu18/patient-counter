@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
     for (button of buttons) {
         button.addEventListener("click", function() {
             if (this.getAttribute("data-type") === "add") {
-            alert("You clicked ADD!");
+                incrementMinorMaleCount();
             } else if (this.getAttribute("data-type") === "minus") {
-                alert("You clicked MINUS!");
+                decrementMinorMaleCount();
             } else if  (this.getAttribute("data-type") === "save") {
-                alert("You clikced SAVE!");
+                saveMinorMaleCount();
             }        
         })
     }
@@ -20,25 +20,28 @@ document.addEventListener("DOMContentLoaded", function() {
 // functions  for patient counter/main page
 
 
-function incrementCount(){
+let minorMale = document.getElementById("minor-male");
+let totalNumberMinors = document.getElementById("total-number-minors");
+let minorMaleCount = 0;
+
+function incrementMinorMaleCount() {
+    minorMaleCount += 1
+    minorMale.textContent = minorMaleCount
+}
+
+function decrementMinorMaleCount() {
+    minorMaleCount -= 1
+    minorMale.textContent = minorMaleCount
 
 }
 
-function decrementCount(){
-    
+function saveMinorMaleCount() {
+    let totalMinorCount = minorMaleCount
+    totalNumberMinors.textContent = totalMinorCount + parseInt(totalNumberMinors.textContent)
+    minorMale.textContent = 0
+    minorMaleCount = 0
 }
 
-function resetCount(){
-    
-}
-
-function totalMinorCount(){
-
-}
-
-function totalAdultCount(){
-    
-}
 
 // functions for tally page
 

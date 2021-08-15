@@ -202,7 +202,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: 30px;;
+    margin: 30px;
 }
 
 #home-image{
@@ -247,30 +247,30 @@ body{
 
 #minor-male{
     margin-left: 70px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 #minor-female{
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 #adult-male{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 #adult-female{
     margin-left: 1px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 #minor-male-btn{
-    margin-left: 15px;
+    margin-left: 10px;
     padding: 15px 15px;
     border-radius: 12px;
     background: red;
@@ -285,7 +285,7 @@ body{
 }
 
 #minor-female-btn{
-    margin-left: 15px;
+    margin-left: 10px;
     padding: 15px 15px;
     border-radius: 12px;
     background: orange;
@@ -300,7 +300,7 @@ body{
 }
 
 #adult-male-btn{
-    margin-left: 15px;
+    margin-left: 10px;
     padding: 15px 15px;
     border-radius: 12px;
     background: yellow;
@@ -315,7 +315,7 @@ body{
 }
 
 #adult-female-btn{
-    margin-left: 15px;
+    margin-left: 10px;
     padding: 15px 15px;
     border-radius: 12px;
     background: green;
@@ -337,17 +337,15 @@ body{
 }
 
 #total-number-minors{
-    padding-right: 10px;
     margin: 20px 20px;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 #total-number-adults{
-    padding-right: 10px;
     margin: 20px 20px;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* Tally page */
