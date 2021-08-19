@@ -348,6 +348,38 @@ body{
     font-weight: 600;
 }
 
+#tally-minors-btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: turquoise;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#tally-minors-btn:hover{
+    background: blue;
+    color: white;
+    transition: all 0.25s ease;
+}
+
+#tally-adults-btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: turquoise;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#tally-adults-btn:hover{
+    background: blue;
+    color: white;
+    transition: all 0.25s ease;
+}
+
 /* Tally page */
 
 #table-container{
