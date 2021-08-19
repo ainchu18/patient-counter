@@ -35,8 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 saveTotalAdultAttendance();
             }
             if (this.getAttribute("data-type") === "submit-total-minors") {
+                alert(`You are now transfering tallied data for the day to the tally page!`);
                 minorTotalJanuary();
             }  else if (this.getAttribute("data-type") === "submit-total-adults") {
+                alert(`You are now transfering tallied data for the day to the tally page!`);
                 adultTotalJanuary();
             }
         })
@@ -134,7 +136,7 @@ function saveTotalAdultAttendance() {
 // functions for tally page
 
 function minorTotalJanuary() {
-    let minorJanCount = totalNumberMinors.textContent;
+    var minorJanCount = parseInt(totalNumberMinors.textContent);
 
     localStorage.setItem("janValue", minorJanCount);
 
@@ -142,8 +144,8 @@ function minorTotalJanuary() {
 }
 
 function adultTotalJanuary() {
-    let adultJanCount = totalNumberAdults.textContent;
-
+    var adultJanCount = totalNumberAdults.textContent;
+    
     localStorage.setItem("janAdultValue", adultJanCount);
 
     window.location.href="tally.html";
