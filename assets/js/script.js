@@ -35,9 +35,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 saveTotalAdultAttendance();
             }
             if (this.getAttribute("data-type") === "submit-total-minors") {
+                //to notify user that theyre going to transfer data to the tally page
                 alert(`You are now transfering tallied data for the day to the tally page!`);
                 minorTotalJanuary();
             }  else if (this.getAttribute("data-type") === "submit-total-adults") {
+                //to notify user that theyre going to transfer data to the tally page
                 alert(`You are now transfering tallied data for the day to the tally page!`);
                 adultTotalJanuary();
             }
@@ -133,7 +135,11 @@ function saveTotalAdultAttendance() {
 }
 
 
-// functions for tally page
+/**
+ * function to transfer data from the main page to the tally page
+ * this will be updated and ??changed by the end of each month
+ * until i will learn how to do it.
+ */
 
 function minorTotalJanuary() {
     var minorJanCount = parseInt(totalNumberMinors.textContent);
