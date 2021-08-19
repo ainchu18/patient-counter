@@ -447,3 +447,99 @@ td{
 
 /* media queries */ 
 
+@media screen and (max-width: 1300px) and (min-width: 930px) {
+    .home-content .content-text h2{
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    #content-design div{
+        padding-bottom: 12px;
+        border: 2px solid #fff;
+    }
+
+    #content-design{
+        border: 2px solid #fff;
+    }
+
+    .home-content .content-text div{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    #minor-male-btn{
+        margin-left: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: red;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #minor-female-btn{
+        margin-left: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: orange;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #adult-male-btn{
+        margin-left: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: yellow;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #adult-female-btn{
+        margin-left: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: green;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .total{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    #total-number-minors{
+        margin: 10px 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #total-number-adults{
+        margin: 10px 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #tally-minors-btn{
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: turquoise;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    #tally-adults-btn{
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: turquoise;
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
