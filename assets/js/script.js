@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             if (this.getAttribute("data-type") === "submit-total-minors") {
                 minorTotalJanuary();
+            }  else if (this.getAttribute("data-type") === "submit-total-adults") {
+                adultTotalJanuary();
             }
         })
     }
@@ -132,15 +134,19 @@ function saveTotalAdultAttendance() {
 // functions for tally page
 
 function minorTotalJanuary() {
-    var minorJanCount = totalNumberMinors.textContent;
+    let minorJanCount = totalNumberMinors.textContent;
 
     localStorage.setItem("janValue", minorJanCount);
 
     window.location.href="tally.html";
 }
 
-function adultTotalJanuary(){
+function adultTotalJanuary() {
+    let adultJanCount = totalNumberAdults.textContent;
 
+    localStorage.setItem("janAdultValue", adultJanCount);
+
+    window.location.href="tally.html";
 }
 
 function minorTotalFebruary(){
