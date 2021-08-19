@@ -35,11 +35,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 saveTotalAdultAttendance();
             }
             if (this.getAttribute("data-type") === "submit-total-minors") {
-                //to notify user that theyre going to transfer data to the tally page
                 alert(`You are now transfering tallied data for the day to the tally page!`);
                 minorTotalJanuary();
             }  else if (this.getAttribute("data-type") === "submit-total-adults") {
-                //to notify user that theyre going to transfer data to the tally page
                 alert(`You are now transfering tallied data for the day to the tally page!`);
                 adultTotalJanuary();
             }
