@@ -34,6 +34,9 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (this.getAttribute("data-type") === "save-adult-female") {
                 saveTotalAdultAttendance();
             }
+            if (this.getAttribute("data-type") === "submit-total-minors") {
+                minorTotalJanuary();
+            }
         })
     }
 })
@@ -128,8 +131,12 @@ function saveTotalAdultAttendance() {
 
 // functions for tally page
 
-function minorTotalJanuary(){
+function minorTotalJanuary() {
+    var minorJanCount = totalNumberMinors.textContent;
 
+    localStorage.setItem("janValue", minorJanCount);
+
+    window.location.href="tally.html";
 }
 
 function adultTotalJanuary(){
