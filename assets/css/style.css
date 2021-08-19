@@ -447,7 +447,7 @@ td{
 
 /* media queries */ 
 
-@media screen and (max-width: 1300px) and (min-width: 930px) {
+@media screen and (max-width: 1300px) and (min-width: 768px) {
     .home-content .content-text h2{
         text-align: center;
         padding: 10px 10px;
@@ -471,16 +471,24 @@ td{
 
     #minor-male{
         margin-left: 52px;
+        font-size: 12px;
+        font-weight: 500;
     }
     #minor-female{
         margin-left: 38px;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     #adult-male{
         margin-left: 15px;
+        font-size: 12px;
+        font-weight: 500;
     }
     #adult-female{
         margin-left: 2px;
+        font-size: 12px;
+        font-weight: 500;
     }
     #minor-male-btn{
         margin-left: 10px;
@@ -557,6 +565,3 @@ td{
     }
 }
 
-@media screen and (max-width: 929px) and (min-width: 768) {
-    
-}
