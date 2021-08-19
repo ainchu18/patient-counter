@@ -454,7 +454,7 @@ td{
     }
 
     #content-design div{
-        padding-bottom: 12px;
+        padding-bottom: 10px;
         border: 2px solid #fff;
     }
 
@@ -465,17 +465,30 @@ td{
     .home-content .content-text div{
         padding-left: 10px;
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 15px;
         margin: 0 auto;
     }
 
+    #minor-male{
+        margin-left: 52px;
+    }
+    #minor-female{
+        margin-left: 38px;
+    }
+
+    #adult-male{
+        margin-left: 15px;
+    }
+    #adult-female{
+        margin-left: 2px;
+    }
     #minor-male-btn{
         margin-left: 10px;
         padding: 10px 10px;
         border-radius: 10px;
         background: red;
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     #minor-female-btn{
@@ -484,7 +497,7 @@ td{
         border-radius: 10px;
         background: orange;
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     #adult-male-btn{
@@ -493,7 +506,7 @@ td{
         border-radius: 10px;
         background: yellow;
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     #adult-female-btn{
@@ -502,7 +515,7 @@ td{
         border-radius: 10px;
         background: green;
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     .total{
@@ -513,13 +526,13 @@ td{
 
     #total-number-minors{
         margin: 10px 10px;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
     }
 
     #total-number-adults{
         margin: 10px 10px;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
     }
 
@@ -530,7 +543,7 @@ td{
         border-radius: 10px;
         background: turquoise;
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     #tally-adults-btn{
@@ -540,6 +553,10 @@ td{
         border-radius: 10px;
         background: turquoise;
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
     }
+}
+
+@media screen and (max-width: 929px) and (min-width: 768) {
+    
 }
