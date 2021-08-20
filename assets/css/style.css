@@ -268,7 +268,7 @@ body{
     font-weight: 700;
 }
 
-#minor-male-btn{
+#add-minor-male-btn{
     margin-left: 10px;
     padding: 10px 10px;
     border-radius: 12px;
@@ -277,7 +277,37 @@ body{
     font-weight: 700;
 }
 
-#minor-male-btn:hover{
+#minus-minor-male-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#save-minor-male-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#add-minor-male-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
+#minus-minor-male-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
+#save-minor-male-btn:hover{
     background: turquoise;
     color: white;
     transition: all 0.25s ease;
