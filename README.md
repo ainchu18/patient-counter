@@ -62,3 +62,5 @@ The desktop app have 4 pages, a footer with social media links which are all eas
 * Home Page where you will know more about the desktop app, its purposes and use.
 ![Home Image](assets/images/counter-home-page.png)
 
+* A main page where the patient counter is located. The counter app can be easily used by clicking the buttons when a certain patient attends the clinics that falls into either of the 4 categories. After the day, you are able to transfer the collated data to the tally page where you can print out the page result. In the future, the site owner hopes to properly have somewhere to store these data collected and properly find the code that will add values everytime a user clicks the tally data button.
+![Main Page](assets/images/main-page.png)
