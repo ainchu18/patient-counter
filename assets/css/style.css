@@ -218,18 +218,10 @@ body{
     padding: 20px 20px;
 }
 
-#content-design div{
-    padding-bottom: 20px;
-    border: 2px solid #fff;
-}
-
-#content-design{
-    border: 2px solid #fff;
-}
-
 .home-content .content-text div{
     padding: 20px 20px;
     font-size: 20px;
+    border: 2px solid #fff;
 }
 
 #minor-male{
