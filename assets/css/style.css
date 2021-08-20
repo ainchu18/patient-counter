@@ -358,7 +358,7 @@ body{
     transition: all 0.25s ease;
 }
 
-#adult-male-btn{
+#add-adult-male-btn{
     margin-left: 10px;
     padding: 10px 10px;
     border-radius: 12px;
@@ -367,10 +367,58 @@ body{
     font-weight: 700;
 }
 
-#adult-male-btn:hover{
+#minus-adult-male-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: yellow;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#save-adult-male-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: yellow;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#add-adult-male-btn:hover{
     background: turquoise;
     color: white;
     transition: all 0.25s ease;
+}
+
+#minus-adult-male-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
+#save-adult-male-btn:hover{
+    background: turquoise;
+    color: white;
+    transition: all 0.25s ease;
+}
+
+#add-adult-female-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: green;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#adult-female-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    background: green;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 #adult-female-btn{
