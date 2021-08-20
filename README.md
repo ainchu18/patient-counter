@@ -64,3 +64,6 @@ The desktop app have 4 pages, a footer with social media links which are all eas
 
 * A main page where the patient counter is located. The counter app can be easily used by clicking the buttons when a certain patient attends the clinics that falls into either of the 4 categories. After the day, you are able to transfer the collated data to the tally page where you can print out the page result. In the future, the site owner hopes to properly have somewhere to store these data collected and properly find the code that will add values everytime a user clicks the tally data button.
 ![Main Page](assets/images/main-page.png)
+
+* Tally page where you can store in the future the data collected from the patient counter. For now, the Javascript functions are working only one time and resets itself when user leaves the page. Unfortunately, I dont have the time to properly fix it, I can not find a function or not yet learned how to store these data permanently and users will be able to save them. The site owners goal in the future is to improve this and properly make the page a worthwile app.
+![Tally Page](assets/images/tally-page.png)
