@@ -45,6 +45,20 @@ Developer : JKCC
 ---
 
 ## Design
+---
 
-### 
+### Layouts
+
+The site for now is a bit limited on its responsiveness to smaller devices and at the moment best used with a desktop to fully enjoy the patient counter app.
+
+### Font and Color Combo Used
+
+Fonts were chosen using google fonts and images from boxicons.com and fontawesome.com. On one hand, colors used are off preference by the site owner which is pleasing to the eyes.
+
+### Structure
+
+The desktop app have 4 pages, a footer with social media links which are all easily accesible. This are in a sidebar which is present in all pages. The side bar needs more improvement with regards to its responsiveness and properties. This will be improved in the future as I learn more about programming and coding and hopefully more time to code.
+
+* Home Page where you will know more about the desktop app, its purposes and use.
+![Home Image](assets/images/counter-home-page.png)
 
