@@ -557,22 +557,47 @@ td{
 
 .container{
     position: absolute;
-    height: 100%;
+    height: 100vh;
     width: calc(100% - 240px);
     left: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calendar{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 30px;
-    font-size: 24px;
-    font-weight: 700;
+    width: 30rem;
+    height: 100%;
+    background-color: #222227;
+    font-size: 62.5%;
+    font-weight: 500;
     color: #fff;
     text-align: center;
+    padding-top: 2rem;
 }
+
+.month{
+    width: 100%;
+    height: 8rem;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+
+
+#calendar-page-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /* media queries */ 
 
