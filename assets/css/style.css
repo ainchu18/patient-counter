@@ -240,10 +240,8 @@ body{
 }
 
 .home-content .content-text div{
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px 20px;
     font-size: 20px;
-    margin: 0 auto;
 }
 
 #minor-male{
@@ -395,7 +393,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 30px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     color: #fff;
     text-align: center;
@@ -411,6 +409,7 @@ table{
     text-align: left;
     font-size: 20px;
     border: 1px solid #11101d;
+    margin-top: 10px;
 }
 
 th{
@@ -425,22 +424,23 @@ td{
 }
 
 #submit{
+    display: inline-block;
     background: #fff;
     border: none;
     color: #11101d;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 20px;
-    margin-top: 10px;
-    border-radius: 12px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    
 }
 
 #submit:hover{
     color: #fff;
     background: #11101d;
-    border-radius: 12px;
+    border-radius: 10px;
     transition: all 0.25s ease;
 
 }
