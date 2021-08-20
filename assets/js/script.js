@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert(`You are now transfering tallied data for the day to the tally page!`);
                 adultTotalJanuary();
             }
-        })
+        });
     }
 });
 
@@ -67,48 +67,48 @@ let totalNumberAdults = document.getElementById("total-number-adults");
 function incrementMinorMaleCount() {
     minorMaleCount += 1;
     minorMale.textContent = minorMaleCount;
-};
+}
 
 function decrementMinorMaleCount() {
     minorMaleCount -= 1;
     minorMale.textContent = minorMaleCount;
-};
+}
 
 // functions for counting minor female attendance
 
 function incrementMinorFemaleCount() {
     minorFemaleCount += 1;
     minorFemale.textContent = minorFemaleCount;
-};
+}
 
 function decrementMinorFemaleCount() {
     minorFemaleCount -= 1;
     minorFemale.textContent = minorFemaleCount;
-};
+}
 
 // functions for counting adult male attendance
 
 function incrementAdultMaleCount() {
     adultMaleCount += 1;
     adultMale.textContent = adultMaleCount;
-};
+}
 
 function decrementAdultMaleCount() {
     adultMaleCount -= 1;
     adultMale.textContent = adultMaleCount;
-};
+}
 
 // functions for counting adult female attendance
 
 function incrementAdultFemaleCount() {
     adultFemaleCount += 1;
     adultFemale.textContent = adultFemaleCount;
-};
+}
 
 function decrementAdultFemaleCount() {
     adultFemaleCount -= 1;
     adultFemale.textContent = adultFemaleCount;
-};
+}
 
 // funtion to sum up minor total
 
@@ -119,7 +119,7 @@ function saveTotalMinorAttendance() {
     minorFemale.textContent = 0;
     minorMaleCount = 0;
     minorFemaleCount = 0;
-};
+}
 
 // funtion to sum up adult total
 
@@ -130,7 +130,7 @@ function saveTotalAdultAttendance() {
     adultFemale.textContent = 0;
     adultMaleCount = 0;
     adultFemaleCount = 0;
-};
+}
 
 
 /**
