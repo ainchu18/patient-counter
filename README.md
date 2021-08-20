@@ -67,3 +67,6 @@ The desktop app have 4 pages, a footer with social media links which are all eas
 
 * Tally page where you can store in the future the data collected from the patient counter. For now, the Javascript functions are working only one time and resets itself when user leaves the page. Unfortunately, I dont have the time to properly fix it, I can not find a function or not yet learned how to store these data permanently and users will be able to save them. The site owners goal in the future is to improve this and properly make the page a worthwile app.
 ![Tally Page](assets/images/tally-page.png)
+
+* Calendar page which at the moment is not finish, I am having problems with the functions I need to use and I ran out of time to finish this part of the project. In time, the site owner hopes to finish this page so users can choose the current date and previous dates and datas as well can be seen. Once I learn more how to code and how to do these things on my mind.
+![Calenda Page](assets/images/calendar-page.png)
