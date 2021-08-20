@@ -99,18 +99,6 @@ body{
 
 }
 
-.calendar{
-    display: flex;
-    flex-direction: column;
-}
-
-.calendar span{
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.25s ease;
-    padding-left: 5px;
-}
-
 #toggle1{
     position: absolute;
     height: 40px;
@@ -563,6 +551,27 @@ td{
     border-radius: 10px;
     transition: all 0.25s ease;
 
+}
+
+/* calendar page */
+
+.container{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+}
+
+.calendar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
 }
 
 /* media queries */ 
