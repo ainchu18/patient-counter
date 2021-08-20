@@ -21,3 +21,16 @@ Developer : JKCC
 2. With this app, it is the aim of the developer for clinics to have the idea on what month of the year is the busiest, demographics of their clients that attends most.
 3. Hence, to assist the company to properly procure correct number supplies and properly do employee rosters and annual leaves, thus, minimizing loss due to expired items that were not used due to ordering too much of a certin supply or medicine that is not that needed during certain period and the clinic will anticipate and properly allocate staffs numbers.
 4. Furthermore, to help the company to be able to properly plan other clinic appointments and times. Lastly, to aide the company to be able to have stored data that can be printed and filed for future references and preparation.
+
+## User Experience
+---
+### Target Crowd
+1. Private clinics that caters minor injuries.
+2. Small hospital that want to keep track of their patient attendance.
+
+### User Expectation
+1. An easy desktop counting app to use.
+2. Simple website to navigate through.
+---
+
+## User Stories
