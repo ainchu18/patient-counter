@@ -7,3 +7,17 @@ Developer : JKCC
 ---
 
 ![Home Page](assets/images/counter-home-page.png)
+
+## Goals
+---
+### User Goals
+1. Find a desktop app that can help them count the number of people attedning their clinic.
+2. Find information about the app.
+3. Find an easy and simple way to track the clinics patients attendance.
+4. Find a place where it can help them data about the demographics of people attending the clinic.
+
+### Developer Goals
+1. To develop a desktop app that can be use by private clinics or minor injury clinics to easily tally, tabulate and print the number of patients or clients entering or using their facility per month.
+2. With this app, it is the aim of the developer for clinics to have the idea on what month of the year is the busiest, demographics of their clients that attends most.
+3. Hence, to assist the company to properly procure correct number supplies and properly do employee rosters and annual leaves, thus, minimizing loss due to expired items that were not used due to ordering too much of a certin supply or medicine that is not that needed during certain period and the clinic will anticipate and properly allocate staffs numbers.
+4. Furthermore, to help the company to be able to properly plan other clinic appointments and times. Lastly, to aide the company to be able to have stored data that can be printed and filed for future references and preparation.
