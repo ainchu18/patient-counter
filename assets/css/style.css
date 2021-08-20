@@ -219,9 +219,9 @@ body{
 }
 
 .home-content .content-text div{
-    padding: 20px 20px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
     font-size: 20px;
-    border: 2px solid #fff;
 }
 
 #minor-male{
@@ -661,7 +661,7 @@ td{
 
 /* media queries */ 
 
-@media screen and (max-width: 1300px) and (min-width: 768px) {
+/*@media screen and (max-width: 1300px) and (min-width: 768px) {
     .home-content .content-text h2{
         text-align: center;
         padding: 10px 10px;
@@ -777,5 +777,5 @@ td{
         font-size: 12px;
         font-weight: 600;
     }
-}
+}*/
 

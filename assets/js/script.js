@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         })
     }
-})
+});
 
 // functions  for patient counter/main page
 
@@ -65,72 +65,72 @@ let totalNumberAdults = document.getElementById("total-number-adults");
 // functions for counting minor male attendance
 
 function incrementMinorMaleCount() {
-    minorMaleCount += 1
-    minorMale.textContent = minorMaleCount
-}
+    minorMaleCount += 1;
+    minorMale.textContent = minorMaleCount;
+};
 
 function decrementMinorMaleCount() {
-    minorMaleCount -= 1
-    minorMale.textContent = minorMaleCount
-}
+    minorMaleCount -= 1;
+    minorMale.textContent = minorMaleCount;
+};
 
 // functions for counting minor female attendance
 
 function incrementMinorFemaleCount() {
-    minorFemaleCount += 1
-    minorFemale.textContent = minorFemaleCount
-}
+    minorFemaleCount += 1;
+    minorFemale.textContent = minorFemaleCount;
+};
 
 function decrementMinorFemaleCount() {
-    minorFemaleCount -= 1
-    minorFemale.textContent = minorFemaleCount
-}
+    minorFemaleCount -= 1;
+    minorFemale.textContent = minorFemaleCount;
+};
 
 // functions for counting adult male attendance
 
 function incrementAdultMaleCount() {
-    adultMaleCount += 1
-    adultMale.textContent = adultMaleCount
-}
+    adultMaleCount += 1;
+    adultMale.textContent = adultMaleCount;
+};
 
 function decrementAdultMaleCount() {
-    adultMaleCount -= 1
-    adultMale.textContent = adultMaleCount
-}
+    adultMaleCount -= 1;
+    adultMale.textContent = adultMaleCount;
+};
 
 // functions for counting adult female attendance
 
 function incrementAdultFemaleCount() {
-    adultFemaleCount += 1
-    adultFemale.textContent = adultFemaleCount
-}
+    adultFemaleCount += 1;
+    adultFemale.textContent = adultFemaleCount;
+};
 
 function decrementAdultFemaleCount() {
-    adultFemaleCount -= 1
-    adultFemale.textContent = adultFemaleCount
-}
+    adultFemaleCount -= 1;
+    adultFemale.textContent = adultFemaleCount;
+};
 
 // funtion to sum up minor total
 
 function saveTotalMinorAttendance() {
-    let totalMinorCount = minorMaleCount + minorFemaleCount
-    totalNumberMinors.textContent = totalMinorCount + parseInt(totalNumberMinors.textContent)
-    minorMale.textContent = 0
-    minorFemale.textContent = 0
-    minorMaleCount = 0
-    minorFemaleCount = 0
-}
+    let totalMinorCount = minorMaleCount + minorFemaleCount;
+    totalNumberMinors.textContent = totalMinorCount + parseInt(totalNumberMinors.textContent);
+    minorMale.textContent = 0;
+    minorFemale.textContent = 0;
+    minorMaleCount = 0;
+    minorFemaleCount = 0;
+};
 
 // funtion to sum up adult total
 
 function saveTotalAdultAttendance() {
-    let totalAdultCount = adultMaleCount + adultFemaleCount
-    totalNumberAdults.textContent = totalAdultCount + parseInt(totalNumberAdults.textContent)
-    adultMale.textContent = 0
-    adultFemale.textContent = 0
-    adultMaleCount = 0
-    adultFemaleCount = 0
-}
+    let totalAdultCount = adultMaleCount + adultFemaleCount;
+    totalNumberAdults.textContent = totalAdultCount + parseInt(totalNumberAdults.textContent);
+    adultMale.textContent = 0;
+    adultFemale.textContent = 0;
+    adultMaleCount = 0;
+    adultFemaleCount = 0;
+};
 
 
 /**
