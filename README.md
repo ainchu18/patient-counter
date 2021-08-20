@@ -70,3 +70,24 @@ The desktop app have 4 pages, a footer with social media links which are all eas
 
 * Calendar page which at the moment is not finish, I am having problems with the functions I need to use and I ran out of time to finish this part of the project. In time, the site owner hopes to finish this page so users can choose the current date and previous dates and datas as well can be seen. Once I learn more how to code and how to do these things on my mind.
 ![Calenda Page](assets/images/calendar-page.png)
+
+## Technologies Used
+
+### Languages
+1. HTML
+2. CSS
+3. Javascript
+
+### Tools
+
+1. Github
+2. Gitpod
+3. Font Awesome
+4. Box Icons
+5. Google Fonts
+6. My laptop
+
+---
+
+## Features
+
