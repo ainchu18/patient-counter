@@ -36,7 +36,7 @@ Developer : JKCC
 ## User Stories
 ---
 * First time users
-1. As a first time user, I want to know about the desktop app uses and how to operate it.
+1. As a first time user, I want to know about the desktop app uses and how to use it.
 2. As a first time user, I want to easily navigate through pages.
 * Returning Users
 1. As a returning user, I will be able to easily get use on how to operate the patient counter.
@@ -157,3 +157,7 @@ The webiste/desktop app is working on the following browsers:
 * Microsoft Edge
 * Internet Explorer
 ---
+
+## Testing User Stories
+
+1. 
