@@ -230,4 +230,5 @@ Images used are from urls from the following:
 * Youtube
 * UCD-Code institute
 * JK you know who you are.
-* In case someone wants to team up with me, I have plenty of ideas that I think the current private hospital system needs, give me an email at christianfordmacamchu18@gmail.com, so we can brainstorm.
+* In case someone wants to team up with me, I have plenty of ideas that I think the current private hospital system needs, give me an email at christianfordmacamchu18@gmail.com, so we can brainstorm. 
+* Please dont copy my idea, if you want to work with me and do proper app for the clinics please email me on the mentioned address. Thanks
