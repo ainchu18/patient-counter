@@ -110,4 +110,15 @@ This can be seen/found on the tally page portion of the site, when clicking the 
 ---
 ## Validation
 ### HTML validation
-The html part of the site was validated using W3C Markup Validation service. All pages passed with no errors.
+The html part of the site was validated using W3C Markup Validation service. All pages passed with no errors and 1 warning.
+* Home Page
+![Home Check](assets/images/home-check.png)
+
+* Main Page
+![Main Check](assets/images/main-check.png)
+
+* Tally Page
+![Tally Check](assets/images/tally-check.png)
+
+* Calendar Page
+![Calendar Check](assets/images/calendar-check.png)
