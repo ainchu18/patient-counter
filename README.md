@@ -86,6 +86,7 @@ The desktop app have 4 pages, a footer with social media links which are all eas
 4. Box Icons
 5. Google Fonts
 6. My laptop
+7. Google Developer Tools
 
 ---
 
@@ -138,9 +139,21 @@ JSHint was used to validate the javascript codes. There were no errors but loads
 
 ## Performance
 
-At the moment the site performance and accesibility seems to be okay, but it needs to improve on the best practices and SEO part of the check. I didnt have much time to finish this project. 
+At the moment the site performance and accesibility seems to be okay only for desktop devices, but it needs to improve on the best practices and SEO part of the check. I didnt have much time to finish this project to suit the mobile devices. 
 
-![Performance 1](assets/images/performance-1.png)
-![Performance 1](assets/images/performance-2.png)
-![Performance 1](assets/images/performance-3.png)
-![Performance 1](assets/images/performance-4.png)
+![Performance](assets/images/performance-1.png)
+![Performance](assets/images/performance-2.png)
+![Performance](assets/images/performance-3.png)
+![Performance](assets/images/performance-4.png)
+
+## Responsiveness
+
+The website was tested solely on a laptop HP Envy and at the moment only responsive to maybe a medium screen device.
+
+## Browser Compatibility
+
+The webiste/desktop app is working on the following browsers:
+* Google Chrome
+* Microsoft Edge
+* Internet Explorer
+---
