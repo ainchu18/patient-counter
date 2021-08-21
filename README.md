@@ -159,5 +159,75 @@ The webiste/desktop app is working on the following browsers:
 ---
 
 ## Testing User Stories
+1. As a first time user, I want to know about the desktop app uses and how to use it.
 
-1. 
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Home Page | Scroll down to see about the club   | Worked    |
+
+2. As a first time user, I want to easily navigate through pages.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Side Nav Bar | Once page is open, click on to the page you prefer to go, it responses when you hover over the options   | Worked    |
+
+
+3. As a returning user, I will be able to easily get use on how to operate the patient counter.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Main Page | Just click to add or decrease the number depending on their demography, save and tally data to be redirected to the tally page   | Worked    |
+
+1. As a site owner, I want to improve more about the websites storing of data process and hopefully able to properly do a calendar page that automatically states the current date.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Calendar and Tally page | At the moment only have local storage and the calendar is not properly working   | Working in a way    |
+
+## Bugs
+
+At the moment when you open the Tally page, it will show NaN, but once you clicked the tally data button it will work and locally store the data collected for that day.
+
+## How the Website was Deployed
+The website was deployed using Github pages following these steps:
+1. Open github website
+2. Navigate to the settings tab
+3. Select PAGES on the left hand side options
+4. Select source branch : main
+5. Click save
+6. After couple of minutes you will see a notification of a successful deployment of the website together with the URL https://ainchu18.github.io/patient-counter/
+
+## You can for fork the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+## You can clone the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Locate the Code button above the list of files and click it
+3. Select if you prefer to clone using https, SSH, or Github CLI and click the copy button, copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory be
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
+7. Press Enter to create your local clone.
+
+## Credits
+
+### Media
+
+Images used are from urls from the following: 
+* stockvault.net
+
+
+### Codes
+* Some codes were based on the previous challenges by the code institute and this program. 
+* Some codes were based on Youtube tutorials
+
+## Acknowledgements
+### I would like to thank the following who helped me make my first ever desktop web app:
+* Google
+* Youtube
+* UCD-Code institute
+* JK you know who you are.
+* In case someone wants to team up with me, I have plenty of ideas that I think the current private hospital system needs, give me an email at christianfordmacamchu18@gmail.com, so we can brainstorm.
