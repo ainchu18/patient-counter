@@ -135,3 +135,12 @@ JSHint was used to validate the javascript codes. There were no errors but loads
 ![Javascript check](assets/images/javascript-1.png)
 ![Javascript check](assets/images/javascript-2.png)
 ![Javascript check](assets/images/javscript-3.png)
+
+## Performance
+
+At the moment the site performance and accesibility seems to be okay, but it needs to improve on the best practices and SEO part of the check. I didnt have much time to finish this project. 
+
+![Performance 1](assets/images/performance-1.png)
+![Performance 1](assets/images/performance-2.png)
+![Performance 1](assets/images/performance-3.png)
+![Performance 1](assets/images/performance-4.png)
