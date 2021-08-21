@@ -127,3 +127,11 @@ The html part of the site was validated using W3C Markup Validation service. All
 
 There seems to be a problem with the Jigsaw Validator so I just use the same validator for the HTML to check the CSS codes. There were no errors found.
 ![CSS check](assets/images/css-check.png)
+
+## Javascript Validation
+
+JSHint was used to validate the javascript codes. There were no errors but loads of warnings. This in time will be fixed when I learn more about this and when I have time to do so.
+
+![Javascript check](assets/images/javascript-1.png)
+![Javascript check](assets/images/javascript-2.png)
+![Javascript check](assets/images/javscript-3.png)
