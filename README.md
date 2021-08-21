@@ -122,3 +122,8 @@ The html part of the site was validated using W3C Markup Validation service. All
 
 * Calendar Page
 ![Calendar Check](assets/images/calendar-check.png)
+
+## CSS Validation
+
+There seems to be a problem with the Jigsaw Validator so I just use the same validator for the HTML to check the CSS codes. There were no errors found.
+![CSS check](assets/images/css-check.png)
