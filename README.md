@@ -55,7 +55,7 @@ The site for now is a bit limited on its responsiveness to smaller devices and a
 
 Fonts were chosen using google fonts and images from boxicons.com and fontawesome.com. On one hand, colors used are off preference by the site owner which is pleasing to the eyes.
 
-### Structure
+### Structure and Features
 
 The desktop app have 4 pages, a footer with social media links which are all easily accesible. This are in a sidebar which is present in all pages. The side bar needs more improvement with regards to its responsiveness and properties. This will be improved in the future as I learn more about programming and coding and hopefully more time to code.
 
@@ -91,3 +91,16 @@ The desktop app have 4 pages, a footer with social media links which are all eas
 
 ## Features
 
+The site contains a side nav bar, a patient counter desktop app and a tally table. All of these needs imprvement and polishing which I wasnt able to do due to lack of time and knowledge.
+### Side and Nav Bars
+* Featured on all pages
+* The logos on top near the desktop app name, as well as the app name, when clicked will lead you to the home page.
+* The side bar inlcudes all the pages of the website and when click will lead you to that page. In addition, social media network links are also seen at the bottom of the side bar, when clicked, or hovered to will response with some movement or changing of color to let the user know.
+![Side Nav Bar](assets/images/side-bar.png)
+### Patient Counter
+This can be seen on the main page, which was explained a while ago be operated usinga click of a mouse to count up or down and save buttons. In addition theres a tally button that you can click when you want to transfer the data collected for the day to a tally table on the tally page.
+![Patient Counter](assets/images/patient-counter.png)
+
+### Tally Table
+This can be seen/found on the tally page portion of the site, when clicking the tally data button, this will automatically bring you to the tally page where you can see the total number for the day.
+![Tally Table](assets/images/tally-table.png)
