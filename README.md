@@ -96,11 +96,18 @@ The site contains a side nav bar, a patient counter desktop app and a tally tabl
 * Featured on all pages
 * The logos on top near the desktop app name, as well as the app name, when clicked will lead you to the home page.
 * The side bar inlcudes all the pages of the website and when click will lead you to that page. In addition, social media network links are also seen at the bottom of the side bar, when clicked, or hovered to will response with some movement or changing of color to let the user know.
+* User stories covered 1 and 2.
 ![Side Nav Bar](assets/images/side-bar.png)
 ### Patient Counter
 This can be seen on the main page, which was explained a while ago be operated usinga click of a mouse to count up or down and save buttons. In addition theres a tally button that you can click when you want to transfer the data collected for the day to a tally table on the tally page.
+* User story covered 1.
 ![Patient Counter](assets/images/patient-counter.png)
 
 ### Tally Table
 This can be seen/found on the tally page portion of the site, when clicking the tally data button, this will automatically bring you to the tally page where you can see the total number for the day.
+* User story covered 1.
 ![Tally Table](assets/images/tally-table.png)
+---
+## Validation
+### HTML validation
+The html part of the site was validated using W3C Markup Validation service. All pages passed with no errors.
